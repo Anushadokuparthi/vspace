@@ -10,13 +10,13 @@
 
 Vspace enables the user to get real time experience of how your house should look in small space and budget
 
-##Technologies used
+## Technologies used
 
 1. React Native 
 2. Figma - Design
 3. Locofy - Build code
 
-##Workflow
+## Workflow
 
 - User register himself and gets verified
 - User has to finish 3 steps
@@ -46,7 +46,7 @@ Vspace enables the user to get real time experience of how your house should loo
 - Figma componentization is not helpful
 - Unable to see complete project structure in code editor of locofy
 
-I am so overwhelmed to join this challenge and my journey so beautiful that I constantly learned so many things in figma and locofy. Locofy hackathon channel was really helpful and resolved issues very quickly. Thank you, spread some love and vote for me guys :)
+> I am so overwhelmed to join this challenge and my journey so beautiful that I constantly learned so many things in figma and locofy. Locofy hackathon channel was really helpful and resolved issues very quickly. Thank you, spread some love and vote for me guys :)
 
 
 
