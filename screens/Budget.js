@@ -51,7 +51,7 @@ const Budget = () => {
                 <Image
                   style={styles.dashiconsarrowDown}
                   resizeMode="cover"
-                  source={require("../assets/dashiconsarrowdown2.png")}
+                  source={require("../assets/dashiconsarrowdown1.png")}
                 />
                 <Text style={[styles.selectBudgetText, styles.ml1]}>
                   Select Budget
@@ -74,7 +74,7 @@ const Budget = () => {
                       <Image
                         style={styles.vectorIcon}
                         resizeMode="cover"
-                        source={require("../assets/vector18.png")}
+                        source={require("../assets/vector1.png")}
                       />
                     </View>
                   </View>
@@ -95,7 +95,7 @@ const Budget = () => {
                       <Image
                         style={styles.vectorIcon1}
                         resizeMode="cover"
-                        source={require("../assets/vector19.png")}
+                        source={require("../assets/vector2.png")}
                       />
                     </View>
                   </View>
@@ -121,7 +121,7 @@ const Budget = () => {
                       <Image
                         style={styles.vectorIcon2}
                         resizeMode="cover"
-                        source={require("../assets/vector18.png")}
+                        source={require("../assets/vector1.png")}
                       />
                     </View>
                   </View>
@@ -142,7 +142,7 @@ const Budget = () => {
                       <Image
                         style={styles.vectorIcon3}
                         resizeMode="cover"
-                        source={require("../assets/vector21.png")}
+                        source={require("../assets/vector4.png")}
                       />
                     </View>
                   </View>
@@ -158,7 +158,7 @@ const Budget = () => {
                   <Image
                     style={styles.vectorIcon4}
                     resizeMode="cover"
-                    source={require("../assets/vector3.png")}
+                    source={require("../assets/vector.png")}
                   />
                 </View>
                 <View style={styles.frameView25}>

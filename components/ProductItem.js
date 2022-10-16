@@ -25,7 +25,7 @@ const ProductItem = ({
               <Image
                 style={styles.vectorIcon}
                 resizeMode="cover"
-                source={require("../assets/vector1.png")}
+                source={require("../assets/vector15.png")}
               />
             </View>
           </View>

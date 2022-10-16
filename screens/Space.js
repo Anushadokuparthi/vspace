@@ -97,7 +97,7 @@ const Space = () => {
                   <Image
                     style={styles.vectorIcon}
                     resizeMode="cover"
-                    source={require("../assets/vector3.png")}
+                    source={require("../assets/vector.png")}
                   />
                 </View>
                 <View style={styles.frameView13}>

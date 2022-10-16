@@ -68,7 +68,7 @@ const List = () => {
                           <Image
                             style={styles.vectorIcon}
                             resizeMode="cover"
-                            source={require("../assets/vector1.png")}
+                            source={require("../assets/vector15.png")}
                           />
                         </View>
                       </View>
@@ -117,7 +117,7 @@ const List = () => {
                           <Image
                             style={styles.vectorIcon1}
                             resizeMode="cover"
-                            source={require("../assets/vector1.png")}
+                            source={require("../assets/vector15.png")}
                           />
                         </View>
                       </View>
@@ -171,7 +171,7 @@ const List = () => {
                           <Image
                             style={styles.vectorIcon2}
                             resizeMode="cover"
-                            source={require("../assets/vector1.png")}
+                            source={require("../assets/vector15.png")}
                           />
                         </View>
                       </View>
@@ -220,7 +220,7 @@ const List = () => {
                           <Image
                             style={styles.vectorIcon3}
                             resizeMode="cover"
-                            source={require("../assets/vector1.png")}
+                            source={require("../assets/vector15.png")}
                           />
                         </View>
                       </View>
@@ -274,7 +274,7 @@ const List = () => {
                           <Image
                             style={styles.vectorIcon4}
                             resizeMode="cover"
-                            source={require("../assets/vector1.png")}
+                            source={require("../assets/vector15.png")}
                           />
                         </View>
                       </View>
@@ -327,7 +327,7 @@ const List = () => {
                           <Image
                             style={styles.vectorIcon5}
                             resizeMode="cover"
-                            source={require("../assets/vector1.png")}
+                            source={require("../assets/vector15.png")}
                           />
                         </View>
                       </View>
@@ -378,7 +378,7 @@ const List = () => {
                           <Image
                             style={styles.vectorIcon6}
                             resizeMode="cover"
-                            source={require("../assets/vector1.png")}
+                            source={require("../assets/vector15.png")}
                           />
                         </View>
                       </View>
@@ -427,7 +427,7 @@ const List = () => {
                           <Image
                             style={styles.vectorIcon7}
                             resizeMode="cover"
-                            source={require("../assets/vector1.png")}
+                            source={require("../assets/vector15.png")}
                           />
                         </View>
                       </View>
@@ -2060,7 +2060,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     flex: 1,
     width: "100%",
-    height: 852,
     flexDirection: "row",
     alignItems: "flex-start",
     justifyContent: "flex-start",

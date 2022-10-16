@@ -11,7 +11,7 @@ const Customize = () => {
         <Image
           style={styles.rectangleIcon}
           resizeMode="cover"
-          source={require("../assets/rectangle-51.png")}
+          source={require("../assets/rectangle-52.png")}
         />
         <View style={styles.frameView}>
           <Text style={styles.vSpaceText}>VSpace</Text>

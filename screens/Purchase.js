@@ -81,7 +81,7 @@ const Purchase = () => {
                         <Image
                           style={styles.vectorIcon}
                           resizeMode="cover"
-                          source={require("../assets/vector1.png")}
+                          source={require("../assets/vector15.png")}
                         />
                       </View>
                     </View>
@@ -122,7 +122,7 @@ const Purchase = () => {
                 <Image
                   style={styles.vectorIcon1}
                   resizeMode="cover"
-                  source={require("../assets/vector3.png")}
+                  source={require("../assets/vector.png")}
                 />
               </View>
               <View style={styles.frameView16}>

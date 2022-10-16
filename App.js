@@ -1,27 +1,27 @@
 const Stack = createNativeStackNavigator();
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import Diversity from "./screens/Diversity";
-import Splash from "./screens/Splash";
-import Customize from "./screens/Customize";
-import Verify from "./screens/Verify";
-import Login from "./screens/Login";
-import Register from "./screens/Register";
 import Dreambig from "./screens/Dreambig";
-import Purchase from "./screens/Purchase";
-import Product from "./screens/Product";
-import List from "./screens/List";
+import Customize from "./screens/Customize";
+import Diversity from "./screens/Diversity";
+import Login from "./screens/Login";
 import Space from "./screens/Space";
 import Budget from "./screens/Budget";
 import Home from "./screens/Home";
+import Verify from "./screens/Verify";
+import Register from "./screens/Register";
+import Splash from "./screens/Splash";
+import Purchase from "./screens/Purchase";
+import Product from "./screens/Product";
+import List from "./screens/List";
 import FrameScreen from "./screens/FrameScreen";
 import GroupScreen from "./screens/GroupScreen";
-import Header5 from "./components/Header5";
-import Header4 from "./components/Header4";
-import Header3 from "./components/Header3";
 import Header2 from "./components/Header2";
 import Header1 from "./components/Header1";
 import Header from "./components/Header";
+import Header5 from "./components/Header5";
+import Header4 from "./components/Header4";
+import Header3 from "./components/Header3";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { View, Text, Pressable, TouchableOpacity } from "react-native";
@@ -43,13 +43,8 @@ const App = () => {
         {hideSplashScreen ? (
           <Stack.Navigator screenOptions={{ headerShown: false }}>
             <Stack.Screen
-              name="Diversity"
-              component={Diversity}
-              options={{ headerShown: false }}
-            />
-            <Stack.Screen
-              name="Splash"
-              component={Splash}
+              name="Dreambig"
+              component={Dreambig}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -58,8 +53,8 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="Verify"
-              component={Verify}
+              name="Diversity"
+              component={Diversity}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -68,13 +63,42 @@ const App = () => {
               options={{ headerShown: false }}
             />
             <Stack.Screen
+              name="Space"
+              component={Space}
+              options={(props) => ({
+                headerShown: true,
+                header: () => <Header2 />,
+              })}
+            />
+            <Stack.Screen
+              name="Budget"
+              component={Budget}
+              options={(props) => ({
+                headerShown: true,
+                header: () => <Header1 />,
+              })}
+            />
+            <Stack.Screen
+              name="Home"
+              component={Home}
+              options={(props) => ({
+                headerShown: true,
+                header: () => <Header />,
+              })}
+            />
+            <Stack.Screen
+              name="Verify"
+              component={Verify}
+              options={{ headerShown: false }}
+            />
+            <Stack.Screen
               name="Register"
               component={Register}
               options={{ headerShown: false }}
             />
             <Stack.Screen
-              name="Dreambig"
-              component={Dreambig}
+              name="Splash"
+              component={Splash}
               options={{ headerShown: false }}
             />
             <Stack.Screen
@@ -99,30 +123,6 @@ const App = () => {
               options={(props) => ({
                 headerShown: true,
                 header: () => <Header3 />,
-              })}
-            />
-            <Stack.Screen
-              name="Space"
-              component={Space}
-              options={(props) => ({
-                headerShown: true,
-                header: () => <Header2 />,
-              })}
-            />
-            <Stack.Screen
-              name="Budget"
-              component={Budget}
-              options={(props) => ({
-                headerShown: true,
-                header: () => <Header1 />,
-              })}
-            />
-            <Stack.Screen
-              name="Home"
-              component={Home}
-              options={(props) => ({
-                headerShown: true,
-                header: () => <Header />,
               })}
             />
             <Stack.Screen

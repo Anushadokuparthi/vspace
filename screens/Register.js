@@ -93,7 +93,7 @@ const Register = () => {
           <Image
             style={styles.rectangleIcon}
             resizeMode="cover"
-            source={require("../assets/rectangle-54.png")}
+            source={require("../assets/rectangle-56.png")}
           />
           <View style={styles.frameView13}>
             <Text style={styles.vSpaceText}>VSpace</Text>

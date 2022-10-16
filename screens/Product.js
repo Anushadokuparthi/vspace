@@ -26,7 +26,7 @@ const Product = () => {
                   <Image
                     style={styles.vectorIcon}
                     resizeMode="cover"
-                    source={require("../assets/vector4.png")}
+                    source={require("../assets/vector18.png")}
                   />
                 </View>
               </View>
@@ -239,7 +239,7 @@ const Product = () => {
                 <Image
                   style={styles.vectorIcon1}
                   resizeMode="cover"
-                  source={require("../assets/vector5.png")}
+                  source={require("../assets/vector19.png")}
                 />
               </View>
               <View style={styles.frameView31}>

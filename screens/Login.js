@@ -78,7 +78,7 @@ const Login = () => {
           <Image
             style={styles.rectangleIcon}
             resizeMode="cover"
-            source={require("../assets/rectangle-53.png")}
+            source={require("../assets/rectangle-54.png")}
           />
           <View style={styles.frameView11}>
             <Text style={styles.vSpaceText}>VSpace</Text>
