@@ -12,7 +12,7 @@ const Diversity = () => {
           <Image
             style={styles.rectangleIcon}
             resizeMode="cover"
-            source={require("../assets/rectangle-5.png")}
+            source={require("../assets/rectangle-53.png")}
           />
           <View style={styles.frameView}>
             <Text style={styles.vSpaceText}>VSpace</Text>

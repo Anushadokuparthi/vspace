@@ -75,7 +75,7 @@ const Home = () => {
                   <Image
                     style={styles.dashiconsarrowDown}
                     resizeMode="cover"
-                    source={require("../assets/dashiconsarrowdown3.png")}
+                    source={require("../assets/dashiconsarrowdown2.png")}
                   />
                   <Text style={[styles.selectCategoryText, styles.ml1]}>
                     Select Category
@@ -101,7 +101,7 @@ const Home = () => {
                         <Image
                           style={styles.vectorIcon}
                           resizeMode="cover"
-                          source={require("../assets/vector23.png")}
+                          source={require("../assets/vector6.png")}
                         />
                       </View>
                     </View>
@@ -122,7 +122,7 @@ const Home = () => {
                         <Image
                           style={styles.vectorIcon1}
                           resizeMode="cover"
-                          source={require("../assets/vector24.png")}
+                          source={require("../assets/vector7.png")}
                         />
                       </View>
                     </View>
@@ -145,7 +145,7 @@ const Home = () => {
                         <Image
                           style={styles.vectorIcon2}
                           resizeMode="cover"
-                          source={require("../assets/vector23.png")}
+                          source={require("../assets/vector8.png")}
                         />
                       </View>
                     </View>
@@ -166,7 +166,7 @@ const Home = () => {
                         <Image
                           style={styles.vectorIcon3}
                           resizeMode="cover"
-                          source={require("../assets/vector24.png")}
+                          source={require("../assets/vector7.png")}
                         />
                       </View>
                     </View>
@@ -189,7 +189,7 @@ const Home = () => {
                         <Image
                           style={styles.vectorIcon4}
                           resizeMode="cover"
-                          source={require("../assets/vector24.png")}
+                          source={require("../assets/vector7.png")}
                         />
                       </View>
                     </View>
@@ -210,7 +210,7 @@ const Home = () => {
                         <Image
                           style={styles.vectorIcon5}
                           resizeMode="cover"
-                          source={require("../assets/vector23.png")}
+                          source={require("../assets/vector8.png")}
                         />
                       </View>
                     </View>
@@ -233,7 +233,7 @@ const Home = () => {
                         <Image
                           style={styles.vectorIcon6}
                           resizeMode="cover"
-                          source={require("../assets/vector24.png")}
+                          source={require("../assets/vector7.png")}
                         />
                       </View>
                     </View>
@@ -254,7 +254,7 @@ const Home = () => {
                         <Image
                           style={styles.vectorIcon7}
                           resizeMode="cover"
-                          source={require("../assets/vector24.png")}
+                          source={require("../assets/vector7.png")}
                         />
                       </View>
                     </View>
@@ -556,7 +556,6 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   frameView9: {
-    flex: 1,
     alignSelf: "stretch",
     flexDirection: "row",
     paddingLeft: 10,

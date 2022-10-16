@@ -13,7 +13,7 @@ const FrameScreen = () => {
             <Image
               style={styles.vectorIcon}
               resizeMode="cover"
-              source={require("../assets/vector.png")}
+              source={require("../assets/vector14.png")}
             />
           </View>
         </View>

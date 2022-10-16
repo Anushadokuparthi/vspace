@@ -71,7 +71,7 @@ const Verify = () => {
           <Image
             style={styles.rectangleIcon}
             resizeMode="cover"
-            source={require("../assets/rectangle-52.png")}
+            source={require("../assets/rectangle-55.png")}
           />
           <View style={styles.frameView12}>
             <Text style={styles.vSpaceText}>VSpace</Text>

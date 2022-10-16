@@ -12,12 +12,12 @@ const Dreambig = () => {
           <Image
             style={styles.rectangleIcon}
             resizeMode="cover"
-            source={require("../assets/rectangle-55.png")}
+            source={require("../assets/rectangle-5.png")}
           />
           <Image
             style={styles.rectangleIcon1}
             resizeMode="cover"
-            source={require("../assets/rectangle-56.png")}
+            source={require("../assets/rectangle-51.png")}
           />
           <View style={styles.frameView}>
             <Text style={styles.vSpaceText}>VSpace</Text>
